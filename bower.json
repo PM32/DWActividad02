@@ -1,0 +1,29 @@
+{
+  "name": "formulariophp",
+  "homepage": "https://github.com/MiguelGonzalezAravena/FormularioPHP",
+  "authors": [
+    "Miguel González Aravena <miguel.gonzalez.93@gmail.com>"
+  ],
+  "description": "Proyecto para enseñar el funcionamiento de un formulario en PHP.",
+  "main": "",
+  "keywords": [
+    "formulario",
+    "php",
+    "desarrollo",
+    "web",
+    "universidad",
+    "valparaíso",
+    "2016"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

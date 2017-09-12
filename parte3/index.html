@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Testing de Formularios</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">DWActividad02</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="http://www.github.com/PM32/DWActividad02">Repositorio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Bienvenido</h1>
+        <p class="lead">La siguiente encuesta no te tomara más de 5 minutos</p>
+      </div>
+    </header>
+
+    <section id="pull">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Encuesta</h2>
+            <p class="lead">Te pedimos respondas la siguiente encuesta sobre Valparaiso</p>
+            <ul>
+              <li>Una vez respuesta, te mostraremos los datos que adjuntaste</li>
+              <li>Toda la informacion escrita es privada, ¡te aseguramos la confidencialidad!</li>
+            </ul>
+        <form method="post">
+          <div class="form-group">
+            <label for="poll_name">Tu Nombre Completo</label>
+            <input type="text" class="form-control" id="poll_name" placeholder="Nombre Apellido">
+          </div>
+
+          <div class="form-group">
+            <label for="poll_email">Direccion de Correo Electronico</label>
+            <input type="email" class="form-control" id="poll_email" aria-describedby="emailHelp" placeholder="ejemplo@web.com">
+            <small id="emailHelp" class="form-text text-muted">Este Correo sera utilizado para notificarte el resultado de la encuesta</small>
+          </div>
+
+          <div class="form-group">
+            <label for="poll_diputado">Selecciona tu Candidato a Diputado por Valparaiso (Distrito 7)</label>
+            <select id="poll_diputado" class="form-control">
+              <option>-nadie-</option>
+              <option>Rodrigo González Torres (PPD)</option>
+              <option>Katherine Araya Matus (PPD)</option>
+              <option>Mario Soto Benavides (PPD)</option>
+              <option>Jorge Coulon Larrañaga (PC)</option>
+              <option>Edson Chávez Severino (PC)</option>
+              <option>Ricardo Bravo Oliva (PS)</option>
+              <option>Marcelo Díaz Díaz (PS)</option>
+              <option>Gigliola Centonzio Rossel (PR)</option>
+              <option>Irma Troncoso Saavedra (PR)</option>
+              <option>Pilar Soberado Nuñez(Evopoli)</option>
+              <option>María José Hoffmann Opazo (UDI)</option>
+              <option>Andrés Celis Montt (RN)</option>
+              <option>Osvaldo Urrutia Soto (UDI)</option>
+              <option>Rosario Pérez Izquierdo (RN)</option>
+              <option>Jorge Castro Muñoz (UDI)</option>
+              <option>José Egido Arriola (RN)</option>
+              <option>Annette Rapu Zamora (IND/UDI)</option>
+              <option>Trinidad Morán Herrera (RN)</option>
+              <option>Victor Torres Jeldes (DC)</option>
+              <option>Mariella Valdés Ávila (DC)</option>
+              <option>Mariel Trigo Vallejos (IND)</option>
+              <option>Jennifer Leiva Labarca (IND)</option>
+              <option>Mauricio Lillo Cavagnaro (IND)</option>
+              <option>René Lues Escobar (DC)</option>
+              <option>Iván Rojas Ovando (PRO)</option>
+              <option>Myrna Sepúlveda Zamudio (PRO)</option>
+              <option>Marcos Montecinos Yáñez (PRO)</option>
+              <option>Víctor Villalobos Soro (PRO)</option>
+              <option>Nicoll Rojas Labra (IND/PRO=Nicola Hadwa Shahwan (PRO)</option>
+              <option>Jorge Rauld González (MA/IG)</option>
+              <option>Milko Caracciolo Soto (IG)</option>
+              <option>Camila Rojas Valderrama (IA/IG)</option>
+              <option>Jorge Brito Hasbún (RD)</option>
+              <option>Mabel Zúñiga Valencia (IND/RD)</option>
+              <option>John Parada Montero (PH)</option>
+              <option>Juan Pablo Paonessa Barria (ND/PH)</option>
+              <option>Jorge Canales Gatica (PP)</option>
+              <option>Dann Espinoza Pozo (PP)</option>
+              <option>Rodrigo Cuevas Benitez (Amplitud)</option>
+              <option>Karen Pichunante Canseco (Amplitud)</option>
+              <option>Leonardo Contreras Neira (Amplitud)</option>
+              <option>Lucas Blaset Pérez (Amplitud)</option>
+              <option>Carlos Vio Vicuña (Amplitud)</option>
+              <option>Álvaro Sanhueza Maripangue (Amplitud)</option>
+              <option>Pastora Valderrama Vásquez (Amplitud)</option>
+              <option>Jaime Espinoza Tobar (Amplitud)</option>
+              <option>Crescencio López Pérez (Amplitud)</option>
+              <option>Jorge Estay Olguín (UPA)</option>
+              <option>Jorge Renault Manríquez (UPA)</option>
+              <option>Luis Qujada Llancas (UPA)</option>
+              <option>Clarisa Ríos Inostroza (UPA)</option>
+              <option>Jean Pierre Gutiérrez Echeverría (UPA)</option>
+              <option>Marcia Tapia Navia (UPA)</option>
+              <option>Ana Araya Romero (UPA)</option>
+              <option>Bárbara González Cid (UPA)</option>
+              <option>Juan Enrique Soto (UPA)</option>
+            </select>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              Deseo recibir notificaciones de mas encuestas en el Correo Electronico adjuntado
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Francisco Muñoz, 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
